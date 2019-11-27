@@ -1,0 +1,19 @@
+{
+  "name": "@types/gamelift-realtime-server-api",
+  "version": "1.0.0",
+  "description": "Gamelift relatime server type definitions",
+  "types": "./index.d.ts",
+  "scripts": {
+  },
+  "keywords": [
+    "types",
+    "gamelift",
+    "realtime-server",
+    "aws"
+  ],
+  "author": "Jure Cular <jure.cular@gmail.com> (Jure Cular <https://github.com/jcular>)",
+  "contributors": [
+    "Mislav Zlatar <mislav.zlatar@hotmail.com> (https://github.com/mislavzlatar)"
+  ],
+  "license": "ISC"
+}
