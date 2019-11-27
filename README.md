@@ -1,2 +1,2 @@
-# unoficial-gamelift-realtime-server-api
+# unofficial-gamelift-realtime-server-api
 Unofficial Typescript definitions for GameLift realtime server API
