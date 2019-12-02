@@ -7,7 +7,7 @@ declare namespace GameLiftRealtime {
     type GameLiftOpCode = number;
     type GameLiftPeerId = number;
     type GameLiftGroupId = number;
-    type GameLiftPayload = string | Uint8Array;
+    type GameLiftPayload = Uint8Array;
 
     interface GameLiftLogger {
         info(info : string) : void;
