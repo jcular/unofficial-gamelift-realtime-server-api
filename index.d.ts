@@ -37,7 +37,7 @@ declare namespace GameLiftRealtime {
         getLogger() : GameLiftLogger;
         sendMessage(message : GameLiftMessage, targetPlayer : GameLiftPeerId) : void;
         sendGroupMessage(message : GameLiftMessage, targetGroup : GameLiftGroupId) : void;
-        sendReliableMessage(message : GameLiftMessage, targetGroup : GameLiftGroupId) : void;
+        sendReliableMessage(message : GameLiftMessage, targetPlayer : GameLiftPeerId) : void;
         sendReliableGroupMessage(message : GameLiftMessage, targetGroup : GameLiftGroupId) : void;
         newTextGameMessage(opCode : GameLiftOpCode, sender : GameLiftPeerId, payload : string) : GameLiftMessage;
         newBinaryGameMessage(opCode : GameLiftOpCode, sender : GameLiftPeerId, binaryPayload : Uint8Array) : GameLiftMessage;
