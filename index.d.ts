@@ -32,7 +32,7 @@ declare namespace GameLiftRealtime {
         broadcastGroupMembershipUpdate(groupIdToBroadCast : GameLiftGroupId, targetGroupId : GameLiftGroupId) : void;
         getServerId() : string;
         getAllPlayersGroupId() : GameLiftGroupId;
-        processEnding() : void;
+        processEnding() : Promise<void>;
         getGameSessionId() : string;
         getLogger() : GameLiftLogger;
         sendMessage(message : GameLiftMessage, targetPlayer : GameLiftPeerId) : void;
